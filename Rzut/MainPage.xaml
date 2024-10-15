@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rzut.MainPage">
+
+    <StackLayout>
+        <Label Text="Podaj ile razy chcesz rzucić"></Label>
+        <Entry x:Name="ile" Placeholder="" />
+        <Button Text="Rzuć" Clicked="Button_Clicked" MaximumWidthRequest="100" />
+        <Label x:Name="wynik" Text="Wyniki losowań: "></Label>
+        <Label x:Name="wynik1" Text="Tu będzie suma"></Label>
+        <Label x:Name="wynik2" Text="Tu będzie suma podwójnych: "></Label>
+
+        <Label x:Name="blad" Text="" />
+    </StackLayout>
+
+</ContentPage>
