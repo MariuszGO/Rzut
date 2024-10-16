@@ -7,11 +7,21 @@
         <Label Text="Podaj ile razy chcesz rzucić"></Label>
         <Entry x:Name="ile" Placeholder="" />
         <Button Text="Rzuć" Clicked="Button_Clicked" MaximumWidthRequest="100" />
+        <HorizontalStackLayout>
+            <Image x:Name="zdj1" Source="z0.png" WidthRequest="100" HeightRequest="100" />
+            <Image x:Name="zdj2" Source="z0.png" WidthRequest="100" HeightRequest="100" />
+            <Image x:Name="zdj3" Source="z0.png" WidthRequest="100" HeightRequest="100" />
+            <Image x:Name="zdj4" Source="z0.png" WidthRequest="100" HeightRequest="100" />
+            <Image x:Name="zdj5" Source="z0.png" WidthRequest="100" HeightRequest="100" />
+        </HorizontalStackLayout>
+        
         <Label x:Name="wynik" Text="Wyniki losowań: "></Label>
         <Label x:Name="wynik1" Text="Tu będzie suma"></Label>
         <Label x:Name="wynik2" Text="Tu będzie suma podwójnych: "></Label>
 
         <Label x:Name="blad" Text="" />
+        
+        
     </StackLayout>
 
 </ContentPage>
