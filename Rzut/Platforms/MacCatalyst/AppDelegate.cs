@@ -1,6 +1,4 @@
-﻿using Foundation;
-
-namespace Rzut
+﻿namespace Rzut
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

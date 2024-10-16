@@ -1,7 +1,4 @@
-﻿using ObjCRuntime;
-using UIKit;
-
-namespace Rzut
+﻿namespace Rzut
 {
     public class Program
     {
